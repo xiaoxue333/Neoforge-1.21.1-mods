@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "earringmod:block/donation_box_side",
+    "down": "earringmod:block/donation_box_side",
+    "up": "earringmod:block/donation_box_top",
+    "north": "earringmod:block/donation_box_side",
+    "south": "earringmod:block/donation_box_side",
+    "east": "earringmod:block/donation_box_front",
+    "west": "earringmod:block/donation_box_side"
+  }
+}

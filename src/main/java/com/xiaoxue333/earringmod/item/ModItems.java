@@ -1,9 +1,8 @@
-package com.xiaoxue333.earrring.item;
+package com.xiaoxue333.earringmod.item;
 
-import com.xiaoxue333.earrring.EarringMod;
+import com.xiaoxue333.earringmod.EarringMod;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 

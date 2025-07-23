@@ -1,4 +1,4 @@
-package com.xiaoxue333.earrring;
+package com.xiaoxue333.earringmod;
 
 import java.util.List;
 
