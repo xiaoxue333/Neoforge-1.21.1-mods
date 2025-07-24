@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CCC"
+  ],
+  "key": {
+    "A": {"item": "minecraft:glass_pane"},
+    "B": {"item": "earringmod:donations"},
+    "C": {"item": "minecraft:stone_pressure_plate"}
+  },
+
+  "result": {
+    "id": "earringmod:donation_box",
+    "count": 1
+  },
+
+  "category": "misc"
+}

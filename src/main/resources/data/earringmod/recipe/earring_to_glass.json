@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 518,
+  "experience": 230,
+  "ingredient": {
+    "item": "earringmod:earring"
+  },
+  "result":{
+    "id": "minecraft:glass",
+    "count": 1
+  }
+}
