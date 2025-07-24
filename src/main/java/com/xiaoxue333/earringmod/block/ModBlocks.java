@@ -29,6 +29,15 @@ public class ModBlocks {
             )
 
     );
+    public static final DeferredBlock<Block> BLACK_BOX = registerBlock(
+            "black_box",
+            () -> new DropExperienceBlock(UniformInt.of(99,131),
+                    BlockBehaviour.Properties.of()
+                            .strength(2f)// 可继续链式调用其他属性
+                            .sound(SoundType.WOOD)
+            )
+
+    );
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){

@@ -1,8 +1,10 @@
 {
   "item.earringmod.earring": "230w耳环",
   "item.earringmod.donations": "善款",
+  "item.earringmod.magnifying_glass": "检察镜",
 
   "block.earringmod.donation_box": "捐款箱",
+  "block.earringmod.black_box": "暗箱",
 
   "creativetab.earringmod.earring_items": "耳环相关"
 }

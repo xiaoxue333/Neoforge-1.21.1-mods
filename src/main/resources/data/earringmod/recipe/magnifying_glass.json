@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "BCB",
+    " C "
+  ],
+  "key": {
+    "A": {"item": "minecraft:glass_pane"},
+    "B": {"item": "earringmod:donations"},
+    "C": {"item": "minecraft:gold_ingot"}
+  },
+
+  "result": {
+    "id": "earringmod:magnifying_glass",
+    "count": 1
+  },
+
+  "category": "misc"
+  }

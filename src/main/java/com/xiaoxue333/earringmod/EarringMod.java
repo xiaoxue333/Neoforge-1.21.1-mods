@@ -103,10 +103,12 @@ public class EarringMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.DONATION_BOX);
+            event.accept(ModBlocks.BLACK_BOX);
         }
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.EARRING);
             event.accept(ModItems.DONATIONS);
+            event.accept(ModItems.MAGAIFYINGGLASS);
 
         }
     }

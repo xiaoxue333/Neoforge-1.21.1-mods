@@ -1,6 +1,7 @@
 package com.xiaoxue333.earringmod.item;
 
 import com.xiaoxue333.earringmod.EarringMod;
+import com.xiaoxue333.earringmod.item.custom.MagnifyingGlassItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -13,7 +14,8 @@ public class ModItems {
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> DONATIONS = ITEMS.register("donations",
             ()->new Item(new Item.Properties()));
-
+    public static final DeferredItem<Item> MAGAIFYINGGLASS = ITEMS.register("magnifying_glass",
+            ()->new MagnifyingGlassItem(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

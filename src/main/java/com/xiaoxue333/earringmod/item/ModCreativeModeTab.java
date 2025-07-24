@@ -22,7 +22,11 @@ public class ModCreativeModeTab {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.EARRING);
                         output.accept(ModItems.DONATIONS);
+                        output.accept(ModItems.MAGAIFYINGGLASS);
+
                         output.accept(ModBlocks.DONATION_BOX);
+                        output.accept(ModBlocks.BLACK_BOX);
+
                     })
                     .build());
 
