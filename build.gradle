@@ -1,4 +1,3 @@
-
 plugins {
     id 'java-library'
     id 'maven-publish'
@@ -187,3 +186,18 @@ idea {
         downloadJavadoc = true
     }
 }
+jar {
+    // 设置自定义 JAR 文件名
+    archiveBaseName = 'earringmod' // 使用您的 modId
+
+    // 确保包含版本变量替换
+    filesMatching("META-INF/neoforge.toml") {
+        expand([
+                "file": [
+                        "jarVersion": project.version
+                ]
+        ])
+    }
+}
+
+

@@ -1,6 +1,7 @@
 package com.xiaoxue333.earringmod.block;
 
 import com.xiaoxue333.earringmod.EarringMod;
+import com.xiaoxue333.earringmod.block.custom.JournalismBlock;
 import com.xiaoxue333.earringmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -31,7 +32,7 @@ public class ModBlocks {
     );
     public static final DeferredBlock<Block> BLACK_BOX = registerBlock(
             "black_box",
-            () -> new DropExperienceBlock(UniformInt.of(99,131),
+            () -> new DropExperienceBlock(UniformInt.of(114,230),
                     BlockBehaviour.Properties.of()
                             .strength(2f)// 可继续链式调用其他属性
                             .sound(SoundType.WOOD)
@@ -39,6 +40,12 @@ public class ModBlocks {
 
     );
 
+    public static final DeferredBlock<Block> JOURNALISM_BLOCK =registerBlock(
+            "journalism_block",
+            ()-> new JournalismBlock(
+                    BlockBehaviour.Properties.of()
+                            .strength(2f))
+    );
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn =BLOCKS.register(name, block);

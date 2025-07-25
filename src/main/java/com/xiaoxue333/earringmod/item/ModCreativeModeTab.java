@@ -26,7 +26,7 @@ public class ModCreativeModeTab {
 
                         output.accept(ModBlocks.DONATION_BOX);
                         output.accept(ModBlocks.BLACK_BOX);
-
+                        output.accept(ModBlocks.JOURNALISM_BLOCK);
                     })
                     .build());
 
